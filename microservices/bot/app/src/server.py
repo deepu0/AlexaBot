@@ -51,12 +51,12 @@ def helpQuote():
     return question(response)
 
 @ask.intent("StopIntent")
-def cancelQuote():
+def noIntent():
     response = 'Goodbye!'
     return statement(response) 
 
 @ask.intent("CancelIntent")
-def cancelQuote():
+def noIntent():
     response = 'Goodbye!'
     return statement(response)        
 
