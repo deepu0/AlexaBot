@@ -45,8 +45,12 @@ def shareQuote():
     response = quote + '...... mmmmmmm ......... Do you want more?'
     return question(response)
 
+@ask.intent("HelpIntent")
+def shareQuote():
+    response = 'This Skill provides you the best motivational quotes. Do you want to get your daily motivation ?'
+    return question(response)
+
 @ask.intent("NoIntent")
 def noIntent():
     byeText = 'Lol... OK... Bye'
     return statement(byeText)
-
