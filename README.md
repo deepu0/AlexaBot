@@ -8,9 +8,10 @@ This is an alexa skill which gives you a Yoda quote when you ask for it. It can 
 
 ### Workflow
 You can test out this skill using an Amazon Echo device or at [Echosim](https://echosim.io). The workflow is as follows:
-- You invoke the skill saying "Alexa, start Yoda skill."
+- You invoke the skill saying "Alexa, say Yoda Quote."
 - Alexa will give you a yoda quote and ask if you want more.
 - If you say yes, it would again give you a yoda quote and ask if you want more. If you say no, it will exit out of the skiil.
+- It also supports Help intent, which gives the user an introduction to what the app is all about and help them get started with the skill use.
 
 ### Internal Implementation
 
@@ -103,4 +104,4 @@ You might want to go through the Flask-ask docs (a very quick read).
 
 ## Support
 
-If you happen to getstuck at any point, feel free to mail me at utkarsh_garg@live.com. Also, if you find an error or a bug, please raise an issue [here](https://github.com/wawhal/alexa-skill-starter).
+If you happen to getstuck at any point, feel free to mail me at utkarsh_garg@live.com. Also, if you find an error or a bug, please raise an issue [here](https://github.com/utk1801/AlexaBot).
