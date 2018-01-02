@@ -49,6 +49,15 @@ To link it with your Amazon Echo Device, go to your [Amazon developer console](h
     },
     {
       "intent": "NoIntent"
+    },
+    {
+      "intent": "HelpIntent"
+    },
+    {
+      "intent": "StopIntent"
+    },
+    {
+      "intent": "CancelIntent"
     }
   ]
 }
@@ -61,10 +70,13 @@ YesIntent yes
 YesIntent sure
 YesIntent yeah
 YesIntent ok
-
 NoIntent no
 NoIntent no thanks
 NoIntent nope
+HelpIntent help
+HelpIntent whats this skill about
+StopIntent stop
+CancelIntent cancel
 ```
 
    Click next.
@@ -73,7 +85,7 @@ NoIntent nope
 
 	Put the default URL as `https://bot.<cluster-name>.hasura-app.io/yoda_quotes`. (Run `$ hasura cluster status` from root directory to know your cluster name).
 
-	**Note**: For quick testing, we have one skill service live at https://bot.dedication76.hasura-app.io/yoda_quotes. (This test service will work only if you have followed 1 and 2)
+	**Note**: For quick testing, we have one skill service live at https://bot.drover65.hasura-app.io/yoda_quotes. (This test service will work only if you have followed 1 and 2)
 
 	Click next.
 
@@ -91,4 +103,4 @@ You might want to go through the Flask-ask docs (a very quick read).
 
 ## Support
 
-If you happen to getstuck at any point, feel free to mail me at tanmaig@gmail.com. Also, if you find an error or a bug, please raise an issue [here](https://github.com/wawhal/alexa-skill-starter).
+If you happen to getstuck at any point, feel free to mail me at utkarsh_garg@live.com. Also, if you find an error or a bug, please raise an issue [here](https://github.com/wawhal/alexa-skill-starter).

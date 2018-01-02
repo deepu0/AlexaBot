@@ -46,9 +46,19 @@ def shareQuote():
     return question(response)
 
 @ask.intent("HelpIntent")
-def shareQuote():
+def helpQuote():
     response = 'This Skill provides you the best motivational quotes. Do you want to get your daily motivation ?'
     return question(response)
+
+@ask.intent("StopIntent")
+def cancelQuote():
+    response = 'Goodbye!'
+    return statement(response) 
+
+@ask.intent("CancelIntent")
+def cancelQuote():
+    response = 'Goodbye!'
+    return statement(response)        
 
 @ask.intent("NoIntent")
 def noIntent():
